@@ -58,12 +58,13 @@ header a:visited {
 }
 
 button {
-  padding: 10px 10px;
+  padding: 10px 20px;
   font-size: 1rem;
 }
 
 button.blue-button {
   background-color: #0161ff;
+  width: 100%;
   color: #fff;
   border: 0;
 }
@@ -118,7 +119,6 @@ section .hero-image img {
 section.cards-section {
   width: 100%;
   margin-top: 2rem;
-  height: 800px;
 }
 
 section .cards-container {
@@ -126,17 +126,13 @@ section .cards-container {
   padding: 1.5rem 0;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 2rem;
 }
 
 section .cards-container .card {
   width: calc(100% / 3 - 2rem);
   border: 1px solid black;
   flex-grow: 1;
-}
-
-article .big-card {
-  flex-grow: 2;
-  height: 200px;
 }
 
 section .card-title {
@@ -146,9 +142,12 @@ section .card-title {
   font-size: 1rem;
 }
 
-article .card-content {
+article .card-content,
+.big-card-content,
+.big-card-button {
   padding: 1rem;
 }
+
 article .card-content button {
   width: 100%;
 }
@@ -162,8 +161,28 @@ article .card-plan-list,
   margin: 2.5rem 0;
 }
 
+/*-------Big Card-------*/
+article .big-card {
+  flex-grow: 2;
+}
+
+.big-card-content {
+  flex-basis: 75%;
+}
+
+.big-card-content p:last-child {
+  font-size: 0.8rem;
+  color: rgb(162, 162, 162);
+  margin-top: 3rem;
+}
+
+.big-card-button {
+  flex-grow: 1;
+}
+
 /*-------Call To Action Section-------*/
 section .cta-container {
+  margin-top: 100px;
   height: 500px;
   background-color: #43aa8b;
 }
