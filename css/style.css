@@ -25,15 +25,41 @@ div.section-divider {
 header {
   height: 50px;
   width: 100%;
-  background-color: #00f5d4;
+  background-color: #fff;
   justify-content: space-between;
+}
+
+header .main-logo {
+  max-width: 100px;
 }
 
 header .primary-links,
 .secondary-links {
   height: 100%;
-  width: 300px;
-  background-color: #00bbf9;
+  width: 600px;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Open Sans", sans-serif;
+  color: #6c6c6c;
+}
+
+header a {
+  margin: 0px 20px;
+  text-decoration: none;
+}
+header a:visited {
+  color: inherit;
+}
+
+button {
+  padding: 3px 7px;
+}
+
+button.blue-button {
+  background-color: #0161ff;
+  color: #fff;
+  border: 0;
 }
 
 section.section-hero {
