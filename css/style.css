@@ -18,6 +18,10 @@
   margin: 0 auto;
 }
 
+div.section-divider {
+  height: 200px;
+}
+
 header {
   height: 50px;
   width: 100%;
@@ -137,4 +141,33 @@ section .partner-box-center {
 }
 .partnerD {
   background-color: #004e89;
+}
+
+div.div-blue {
+  background-color: #b4d0e7;
+}
+
+section .faq-container {
+  height: 400px;
+  background-color: #4f3ebf;
+}
+
+footer {
+  height: 400px;
+  background-color: black;
+}
+
+footer ul {
+  width: 150px;
+  background-color: white;
+}
+
+footer .small-divider {
+  margin: 1rem 0;
+  width: 2rem;
+  border-top: 1px solid white;
+}
+
+span.language {
+  background-color: white;
 }
