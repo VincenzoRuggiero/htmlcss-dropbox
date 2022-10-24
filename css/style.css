@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+header {
+  height: 10vh;
+  width: 100%;
+  background-color: #00f5d4;
+  justify-content: space-between;
+}
+
+header .primary-links,
+.secondary-links {
+  height: 100%;
+  width: 300px;
+  background-color: #00bbf9;
+}
