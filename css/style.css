@@ -122,16 +122,21 @@ section.cards-section {
 }
 
 section .cards-container {
-  height: 700px;
   margin-top: 1rem;
   padding: 1.5rem 0;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 section .cards-container .card {
   width: calc(100% / 3 - 2rem);
-  height: 650px;
   border: 1px solid black;
+  flex-grow: 1;
+}
+
+article .big-card {
+  flex-grow: 2;
+  height: 200px;
 }
 
 section .card-title {
