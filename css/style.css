@@ -309,8 +309,20 @@ div.div-blue {
 }
 /*-------Faq Section-------*/
 section .faq-container {
-  height: 400px;
-  background-color: #4f3ebf;
+}
+
+section .questions-container {
+  width: 100%;
+  padding-top: 2rem;
+}
+
+section .single-question {
+  justify-content: space-between;
+  border-top: 1px solid black;
+  padding: 2rem 0;
+}
+section .single-question:last-of-type {
+  border-bottom: 1px 0 solid black;
 }
 
 /*-------Footer Section-------*/
