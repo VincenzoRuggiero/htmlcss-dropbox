@@ -8,9 +8,13 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-/* section {
-  margin-bottom: 8rem;
-} */
+ul {
+  list-style-type: none;
+}
+
+main {
+  margin: 8rem 0;
+}
 
 .flex {
   display: flex;
@@ -43,6 +47,11 @@ div.section-divider {
   position: absolute;
 }
 
+.cards-section,
+.cta-section {
+  margin-bottom: 7rem;
+}
+
 /*-------Header Section-------*/
 
 header {
@@ -67,7 +76,7 @@ header .primary-links,
 }
 
 header a {
-  margin: 0px 20px;
+  margin: 0px 10px;
   text-decoration: none;
 }
 header a:visited {
@@ -75,14 +84,18 @@ header a:visited {
 }
 
 button {
-  padding: 10px 10px;
-  font-size: 1rem;
+  padding: 10px 9px;
+  font-size: 0.9rem;
 }
 
 button.blue-button {
   background-color: #0161ff;
   color: #fff;
   border: 0;
+}
+
+.full-btn {
+  width: 100%;
 }
 
 /*-------Hero Section-------*/
@@ -177,8 +190,17 @@ article .card-content,
   padding: 1rem;
 }
 
+article i {
+  margin-right: 10px;
+}
+
 .card-content {
   flex-direction: column;
+}
+
+.card-content li {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
 }
 .plan-price,
 .plan-details,
@@ -186,8 +208,8 @@ article .card-content,
   margin-bottom: 2rem;
 }
 
-.plan-details {
-  line-height: 1.5rem;
+.plan-summary {
+  margin-top: 1rem;
 }
 
 .plan-summary h4 {
@@ -200,17 +222,17 @@ article .big-card {
 }
 
 .big-card-content {
-  flex-basis: 75%;
+  flex-basis: 70%;
 }
 
 .big-card-content p:last-child {
   font-size: 0.8rem;
-  color: rgb(162, 162, 162);
+  color: rgb(181, 177, 177);
   margin-top: 3rem;
 }
 
 .big-card-button {
-  flex-grow: 1;
+  flex-basis: 30%;
 }
 
 /*-------Call To Action Section-------*/
@@ -350,7 +372,6 @@ footer {
 
 footer ul {
   width: 150px;
-  list-style: none;
   line-height: 1.8rem;
 }
 
