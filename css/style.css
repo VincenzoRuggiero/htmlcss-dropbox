@@ -35,15 +35,6 @@ main {
   margin: 0 auto;
 }
 
-div.section-divider {
-  height: 400px;
-}
-
-div.section-divider h2 {
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
-}
-
 .p-relative {
   position: relative;
 }
@@ -53,8 +44,37 @@ div.section-divider h2 {
 }
 
 .cards-section,
-.cta-section {
+.cta-section,
+.divider-blue {
   margin-bottom: 7rem;
+}
+
+/*-------Section Divider-------*/
+div.section-divider {
+  height: 400px;
+}
+
+div.section-divider h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.small-divider {
+  margin: 1rem 0;
+  width: 2rem;
+  border-top: 1px solid;
+}
+
+.div-white {
+  border-color: white;
+}
+
+.div-black {
+  border-color: black;
+}
+
+.div-blue {
+  background-color: #b4d0e7;
 }
 
 /*-------Buttons-------*/
@@ -339,28 +359,19 @@ section.partners-section {
   margin-bottom: 2rem;
 }
 
-div.div-blue {
-  background-color: #b4d0e7;
-}
-*/
-
 /*-------Last Section Divider------*/
 .divider-blue {
   background-color: #b4d0e7;
 }
 
 .section-divider-container {
-  align-items: center;
   height: 100%;
-}
-
-.divider-header,
-.divider-button {
-  padding: 1rem;
+  align-items: center;
 }
 
 .divider-header {
-  width: 70;
+  width: 70%;
+  color: #62092b;
 }
 
 .divider-button {
@@ -406,18 +417,4 @@ footer i,
 span {
   font-size: 0.7rem;
   margin-right: 10px;
-}
-
-.small-divider {
-  margin: 1rem 0;
-  width: 2rem;
-  border-top: 1px solid;
-}
-
-.div-white {
-  border-color: white;
-}
-
-.div-black {
-  border-color: black;
 }
