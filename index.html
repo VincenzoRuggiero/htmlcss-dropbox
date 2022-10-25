@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mystyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,93 +49,105 @@
                     <i class="fa-sharp fa-solid fa-arrow-down"></i>    
                 </div>
                 <div class="hero-image">
-                    <img src="/img/jumbo.png" alt="Immagine d'esempio del servizio">
+                    <img src="./img/jumbo.png" alt="Immagine d'esempio del servizio">
                 </div>
             </div>
         </div>
     </section>
 
     <section class="cards-section">
-        <div class=" smaller-box">
+        <div class="plans smaller-box">
             <h2>Trova il piano business che fa per te</h2>
-            <input type="radio" name="" id=""><span>Fatturazione mensile</span>
-            <input type="radio" name="" id=""><span>Fatturazione annuale</span>
+            <input type="radio" name="" id="" checked><span class="payment">Fatturazione mensile</span>
+            <input type="radio" name="" id=""><span class="payment">Fatturazione annuale</span>
             <div class="cards-container flex">
                 <article class="card">
                     <div class="card-title">
-                        <span>Singolo</span>
+                        <i class="fa-solid fa-user icon"></i><span>Singolo</span>
                     </div>
                     <div class="card-content">
-                        <h3>Professional</h3>
-                        <strong><p>&euro;12,00</p></strong>
-                        <em><p>/mese</p></em>
-                        <div class="card-plan-list">
-                            <i class="fa-solid fa-user"></i><span>Un utente</span> <br>
-                            <i class="fa-solid fa-folder"></i><span>Lorem ipsum dolor sit amet.</span> <br>
-                            <i class="fa-solid fa-share-nodes"></i><span>Lorem ipsum dolor sit amet.</span> <br>
+                        <div class="plan-price">
+                            <h3>Professional</h3>
+                            <p><strong>&euro;12,00</strong></p>
+                            <p><em>/mese</em></p>
                         </div>
-                        <button class="blue-button">Lorem ipsum dolor.</button>
-                        <p>oppure <a href="#">acquista ora</a></p>
-                        <div class="small-divider div-black"></div>
-                        <div class="card-summary-plan">
+                        <div class="plan-details">
+                            <i class="fa-solid fa-user"></i><span>Un utente</span> <br>
+                            <i class="fa-solid fa-folder"></i><span>5 TB di spazio di archiviazione sicuro</span> <br>
+                            <i class="fa-solid fa-share-nodes"></i><span>Funzioni di produttività premium e condivisione file semplice e sicura</span> <br>
+                        </div>
+                        <div class="plan-buy">
+                            <button class="blue-button">Prova gratis per 30 giorni.</button>
+                            <p>oppure <a href="#">acquista ora</a></p>
+                            <div class="small-divider div-black"></div>
+                        </div>
+                        <div class="plan-summary">
                             <h4>Punti Salienti del piano</h4>
-                            <i class="fa-solid fa-check"></i><span>Lorem ipsum dolor sit amet.</span><br>
-                            <i class="fa-solid fa-check"></i><span>Lorem ipsum dolor sit amet.</span>
+                            <i class="fa-solid fa-check"></i><span>Invia file fino a 100GB con Dropbox Transfert</span><br>
+                            <i class="fa-solid fa-check"></i><span>Cartelle offline su dispositivi mobili.</span>
                         </div>
                     </div>
                 </article> 
 
                 <article class="card">
                     <div class="card-title">
-                        <span>Singolo</span>
+                        <i class="fa-solid fa-user icon"></i><span>Singolo</span>
                     </div>
                     <div class="card-content">
-                        <h3>Professional</h3>
-                        <strong><p>&euro;12,00</p></strong>
-                        <em><p>/mese</p></em>
-                        <div class="card-plan-list">
-                            <i class="fa-solid fa-user"></i><span>Un utente</span> <br>
-                            <i class="fa-solid fa-folder"></i><span>Lorem ipsum dolor sit amet.</span> <br>
-                            <i class="fa-solid fa-share-nodes"></i><span>Lorem ipsum dolor sit amet.</span> <br>
+                        <div class="plan-price">
+                            <h3>Professional</h3>
+                            <p><strong>&euro;12,00</strong></p>
+                            <p><em>/mese</em></p>
                         </div>
-                        <button class="blue-button">Lorem ipsum dolor.</button>
-                        <p>oppure <a href="#">acquista ora</a></p>
-                        <div class="small-divider div-black"></div>
-                        <div class="card-summary-plan">
+                        <div class="plan-details">
+                            <i class="fa-solid fa-user"></i><span>Un utente</span> <br>
+                            <i class="fa-solid fa-folder"></i><span>5 TB di spazio di archiviazione sicuro</span> <br>
+                            <i class="fa-solid fa-share-nodes"></i><span>Funzioni di produttività premium e condivisione file semplice e sicura</span> <br>
+                        </div>
+                        <div class="plan-buy">
+                            <button class="blue-button">Prova gratis per 30 giorni.</button>
+                            <p>oppure <a href="#">acquista ora</a></p>
+                            <div class="small-divider div-black"></div>
+                        </div>
+                        <div class="plan-summary">
                             <h4>Punti Salienti del piano</h4>
-                            <i class="fa-solid fa-check"></i><span>Lorem ipsum dolor sit amet.</span><br>
-                            <i class="fa-solid fa-check"></i><span>Lorem ipsum dolor sit amet.</span>
+                            <i class="fa-solid fa-check"></i><span>Invia file fino a 100GB con Dropbox Transfert</span><br>
+                            <i class="fa-solid fa-check"></i><span>Cartelle offline su dispositivi mobili.</span>
                         </div>
                     </div>
                 </article> 
 
                 <article class="card">
                     <div class="card-title">
-                        <span>Singolo</span>
+                        <i class="fa-solid fa-user icon"></i><span>Singolo</span>
                     </div>
                     <div class="card-content">
-                        <h3>Professional</h3>
-                        <strong><p>&euro;12,00</p></strong>
-                        <em><p>/mese</p></em>
-                        <div class="card-plan-list">
-                            <i class="fa-solid fa-user"></i><span>Un utente</span> <br>
-                            <i class="fa-solid fa-folder"></i><span>Lorem ipsum dolor sit amet.</span> <br>
-                            <i class="fa-solid fa-share-nodes"></i><span>Lorem ipsum dolor sit amet.</span> <br>
+                        <div class="plan-price">
+                            <h3>Professional</h3>
+                            <p><strong>&euro;12,00</strong></p>
+                            <p><em>/mese</em></p>
                         </div>
-                        <button class="blue-button">Lorem ipsum dolor.</button>
-                        <p>oppure <a href="#">acquista ora</a></p>
-                        <div class="small-divider div-black"></div>
-                        <div class="card-summary-plan">
+                        <div class="plan-details">
+                            <i class="fa-solid fa-user"></i><span>Un utente</span> <br>
+                            <i class="fa-solid fa-folder"></i><span>5 TB di spazio di archiviazione sicuro</span> <br>
+                            <i class="fa-solid fa-share-nodes"></i><span>Funzioni di produttività premium e condivisione file semplice e sicura</span> <br>
+                        </div>
+                        <div class="plan-buy">
+                            <button class="blue-button">Prova gratis per 30 giorni.</button>
+                            <p>oppure <a href="#">acquista ora</a></p>
+                            <div class="small-divider div-black"></div>
+                        </div>
+                        <div class="plan-summary">
                             <h4>Punti Salienti del piano</h4>
-                            <i class="fa-solid fa-check"></i><span>Lorem ipsum dolor sit amet.</span><br>
-                            <i class="fa-solid fa-check"></i><span>Lorem ipsum dolor sit amet.</span>
+                            <i class="fa-solid fa-check"></i><span>Invia file fino a 100GB con Dropbox Transfert</span><br>
+                            <i class="fa-solid fa-check"></i><span>Cartelle offline su dispositivi mobili.</span>
                         </div>
                     </div>
                 </article> 
 
                 <article class="card big-card">
                     <div class="card-title">
-                        <span>Team</span>
+                        <i class="fa-solid fa-building icon"></i> <span>Team</span>
                     </div>
                     <div class="big-card-container flex">
                         <div class="big-card-content">

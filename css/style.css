@@ -58,13 +58,12 @@ header a:visited {
 }
 
 button {
-  padding: 10px 20px;
+  padding: 10px 10px;
   font-size: 1rem;
 }
 
 button.blue-button {
   background-color: #0161ff;
-  width: 100%;
   color: #fff;
   border: 0;
 }
@@ -121,9 +120,18 @@ section.cards-section {
   margin-top: 2rem;
 }
 
+section .plans input {
+  margin-top: 1rem;
+}
+section .plans input:last-of-type {
+  margin-left: 2rem;
+}
+section .plans .payment {
+  padding-left: 0.5rem;
+}
+
 section .cards-container {
   margin-top: 1rem;
-  padding: 1.5rem 0;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 2rem;
@@ -142,23 +150,32 @@ section .card-title {
   font-size: 1rem;
 }
 
+section .card-title .icon {
+  font-size: 1rem;
+  margin-right: 5px;
+}
+
 article .card-content,
 .big-card-content,
 .big-card-button {
   padding: 1rem;
 }
 
-article .card-content button {
-  width: 100%;
+.card-content {
+  flex-direction: column;
+}
+.plan-price,
+.plan-details,
+.plan-buy {
+  margin-bottom: 2rem;
 }
 
-article .card-summary-plan {
-  line-height: 1.7rem;
+.plan-details {
+  line-height: 1.5rem;
 }
 
-article .card-plan-list,
-.card-summary-plan {
-  margin: 2.5rem 0;
+.plan-summary h4 {
+  margin-bottom: 10px;
 }
 
 /*-------Big Card-------*/
