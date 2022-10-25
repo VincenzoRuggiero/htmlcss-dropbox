@@ -117,7 +117,7 @@ section .hero-image img {
 /*-------Cards Section-------*/
 section.cards-section {
   width: 100%;
-  margin-top: 2rem;
+  margin: 2rem 0;
 }
 
 section .plans input {
@@ -199,9 +199,19 @@ article .big-card {
 
 /*-------Call To Action Section-------*/
 section .cta-container {
-  margin-top: 100px;
-  height: 500px;
-  background-color: #43aa8b;
+}
+
+section .cta-image {
+  flex-grow: 2;
+}
+
+section .cta-image img {
+  width: 100%;
+}
+
+section .cta-content {
+  flex-grow: 1;
+  padding: 2rem;
 }
 
 /*-------Features Section-------*/
