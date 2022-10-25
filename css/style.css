@@ -331,7 +331,6 @@ section.partners-section {
 .partner-group-right {
   width: 500px;
   height: 500px;
-  background-color: yellow;
 }
 
 .partner-group-left,
@@ -456,4 +455,9 @@ footer i,
 span {
   font-size: 0.7rem;
   margin-right: 10px;
+}
+
+.fa-check {
+  color: blue;
+  font-size: 1rem;
 }
