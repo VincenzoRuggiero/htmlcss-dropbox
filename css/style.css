@@ -52,6 +52,28 @@ div.section-divider {
   margin-bottom: 7rem;
 }
 
+/*-------Buttons-------*/
+
+button {
+  padding: 10px 9px;
+  font-size: 0.9rem;
+  border: 0;
+}
+
+.white-button {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid black;
+}
+button.blue-button {
+  background-color: #0161ff;
+  color: #fff;
+}
+
+.full-btn {
+  width: 100%;
+}
+
 /*-------Header Section-------*/
 
 header {
@@ -81,21 +103,6 @@ header a {
 }
 header a:visited {
   color: inherit;
-}
-
-button {
-  padding: 10px 9px;
-  font-size: 0.9rem;
-}
-
-button.blue-button {
-  background-color: #0161ff;
-  color: #fff;
-  border: 0;
-}
-
-.full-btn {
-  width: 100%;
 }
 
 /*-------Hero Section-------*/
@@ -238,7 +245,7 @@ article .big-card {
 /*-------Call To Action Section-------*/
 
 section .cta-image {
-  flex-grow: 2;
+  flex-basis: 50%;
 }
 
 section .cta-image img {
@@ -246,8 +253,12 @@ section .cta-image img {
 }
 
 section .cta-content {
-  flex-grow: 1;
+  flex-basis: 50%;
   padding: 2rem;
+}
+
+section .cta-content > * {
+  margin-bottom: 30px;
 }
 
 /*-------Features Section-------*/
