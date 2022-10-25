@@ -329,15 +329,25 @@ section .single-question:last-of-type {
 footer {
   height: 400px;
   background-color: black;
+  color: #fff;
 }
 
 footer ul {
   width: 150px;
-  background-color: white;
+  list-style: none;
+  line-height: 1.8rem;
 }
 
-span.language {
-  background-color: white;
+footer .nav-container {
+  justify-content: space-between;
+  padding: 4rem 0;
+  color: #fff;
+}
+
+footer i,
+span {
+  font-size: 0.7rem;
+  margin-right: 10px;
 }
 
 .small-divider {
