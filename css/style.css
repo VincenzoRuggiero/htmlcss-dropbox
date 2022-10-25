@@ -157,7 +157,7 @@ section .hero-content {
 section .hero-text {
   max-width: 40%;
   padding-right: 1rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 section .hero-text p:last-of-type {
   font-size: 1rem;
@@ -170,10 +170,11 @@ section .hero-text button {
 
 section .hero-text i {
   font-size: 1.5rem;
+  bottom: 65px;
 }
 
 section .hero-image img {
-  width: 100%;
+  width: 126%;
 }
 
 /*-------Cards Section-------*/
@@ -400,7 +401,10 @@ section.partners-section {
 }
 
 .divider-header {
-  width: 70%;
+  width: 75%;
+}
+
+.divider-header h2.brownred {
   color: #62092b;
 }
 
