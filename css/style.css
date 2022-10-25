@@ -85,6 +85,10 @@ button {
   border: 0;
 }
 
+button:hover {
+  opacity: 0.5;
+}
+
 .white-button {
   background-color: #fff;
   color: #000;
@@ -340,13 +344,10 @@ section.partners-section {
   height: 50%;
 }
 
-.partner img {
-  filter: invert(99%) sepia(11%) saturate(53%) hue-rotate(209deg)
-    brightness(117%) contrast(100%);
-}
-
 .partner > img {
   width: 50%;
+  filter: invert(99%) sepia(11%) saturate(53%) hue-rotate(209deg)
+    brightness(117%) contrast(100%);
 }
 
 .partner-box-center {
