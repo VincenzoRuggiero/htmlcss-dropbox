@@ -407,6 +407,10 @@ footer ul {
   line-height: 1.8rem;
 }
 
+footer li {
+  font-size: 0.9rem;
+}
+
 footer .nav-container {
   justify-content: space-between;
   padding: 4rem 0;
