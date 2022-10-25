@@ -16,6 +16,11 @@ body {
   display: flex;
 }
 
+.flex-centered {
+  justify-content: center;
+  align-items: center;
+}
+
 .larger-box {
   width: 900px;
   margin: 0 auto;
@@ -28,6 +33,14 @@ body {
 
 div.section-divider {
   height: 400px;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.p-absolute {
+  position: absolute;
 }
 
 /*-------Header Section-------*/
@@ -236,54 +249,57 @@ section .feature-card img {
 }
 
 /*-------Partners Section-------*/
+
 section.partners-section {
   width: 100%;
-  height: 400px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   background-color: #277da1;
   margin-bottom: 0;
+  justify-content: center;
 }
 
-section .partner-group-left,
+.partner-group-left,
 .partner-box-center,
 .partner-group-right {
-  flex-grow: 1;
-  border: 3px solid red;
+  width: 500px;
+  height: 500px;
+  background-color: yellow;
 }
 
-section .partner-group-left,
+.partner-group-left,
 .partner-group-right {
   flex-wrap: wrap;
 }
 
-section .partner-box-center {
-  flex-grow: 1;
-  background-color: #efefd0;
-}
-
-.box-partner {
+.partner {
   width: 50%;
   height: 50%;
-  border: 1px solid white;
+  color: #fff;
+  background-color: salmon;
 }
 
-.partnerA {
-  background-color: #ff6b35;
+.partner > img {
+  color: #fff;
+  width: 50%;
 }
 
-.partnerB {
-  background-color: #f7c59f;
+.partner-box-center {
+  padding: 3rem;
 }
-.partnerC {
-  background-color: #1a659e;
+
+.partner-box-center img {
+  width: 40%;
+  margin-bottom: 3rem;
 }
-.partnerD {
-  background-color: #004e89;
+
+.partner-box-center p {
+  margin-bottom: 2rem;
 }
 
 div.div-blue {
   background-color: #b4d0e7;
 }
+*/
 
 /*-------Last Section Divider------*/
 .divider-blue {
