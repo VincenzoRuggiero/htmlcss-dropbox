@@ -331,6 +331,7 @@ section.partners-section {
 .partner-group-left,
 .partner-box-center,
 .partner-group-right {
+  /* flex-grow: 1; */
   width: 500px;
   height: 500px;
 }
@@ -343,6 +344,8 @@ section.partners-section {
 .partner {
   width: 50%;
   height: 50%;
+  /* height: calc(100% / 2);
+  width: calc(100% / 2); */
 }
 
 .partner > img {
