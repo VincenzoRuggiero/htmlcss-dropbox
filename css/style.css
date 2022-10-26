@@ -236,14 +236,30 @@ article i {
   flex-direction: column;
 }
 
-.card-content li {
+.card li {
   margin-bottom: 1rem;
   font-size: 0.9rem;
 }
+
+.card li > i {
+  float: left;
+}
+.card li > p {
+  overflow: hidden;
+  font-size: 0.8rem;
+}
+
 .plan-price,
 .plan-details,
 .plan-buy {
   margin-bottom: 2rem;
+}
+
+.plan-buy {
+  line-height: 3rem;
+}
+.plan-buy p {
+  font-size: 0.8rem;
 }
 
 .plan-summary {
