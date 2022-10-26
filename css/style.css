@@ -119,7 +119,7 @@ header .main-logo {
 header .primary-links,
 .secondary-links {
   height: 100%;
-  width: 600px;
+  /* width: 600px; */
   padding: 1rem;
   align-items: center;
   justify-content: space-around;
@@ -127,7 +127,8 @@ header .primary-links,
 }
 
 header a {
-  margin: 0px 10px;
+  font-size: 0.9rem;
+  margin: 0px 1rem;
   text-decoration: none;
 }
 header a:visited {
@@ -173,7 +174,7 @@ section .hero-text button {
 }
 
 section .hero-text i {
-  font-size: 1.5rem;
+  font-size: 3rem;
   bottom: 65px;
 }
 
@@ -297,8 +298,9 @@ section.features-section {
 }
 
 section .features-container {
+  margin-top: 2rem;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 3rem;
 }
 
 section .feature-card {
@@ -345,8 +347,7 @@ section.partners-section {
 
 .partner > img {
   width: 50%;
-  filter: invert(99%) sepia(11%) saturate(53%) hue-rotate(209deg)
-    brightness(117%) contrast(100%);
+  filter: invert(1);
 }
 
 .partner-box-center {
